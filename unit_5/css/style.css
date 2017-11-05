@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+    margin: auto;
+    text-align: right;
+    padding: 30px;
+
+    /*unit5*/
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+header {
+	text-align: center;
+
+	/*unit5*/
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+body {
+	font-size: 16px; /*16px = 1em*/
+}
+
+h1 {
+	color: #E9849D;
+	font-size: 120px;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 300;
+	padding-top: 250px;
+	padding-bottom: 30px;
+}
+
+
+h2 {
+	color: #282928;
+	font-size: 35px;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 200;
+	line-height: 1.2;
+	padding: 10px 0;
+}
+
+aside {
+	/*unit5*/
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+	/*unit5*/
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+	text-align: center;
+	line-height: 2em;
+	padding: 40px 0;
+	background-color: #e6e6e6;
+
+	/*unit5*/
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	padding: 10px;
+	margin: 5px;
+	width: 42em;
+
+	/*unit5*/
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+
+p {
+	color: #404040;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+}
+
+ul {
+	color: #414241;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 2em;
+	padding-left: 20px; 
+}
+
+a {
+	color: #E9849D;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+
+footer a {
+	font-size: 20px;
+	border-bottom: 2px solid #F4BAC9;
+}
+
+img {
+	width: 100%;
+}
+
+nav a {
+	font-family: 'Open Sans', sans-serif;
+	color: #E9849D;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding:10px;
+
+	/*	padding-top: 10px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+	*/
+
+
+    margin: 0 20px;
+    border: none;
+    background-color: none;
+	
+}
+
+#lander {
+	background-image: url("https://i.imgur.com/cHcBQvq.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 30px;
+	padding-bottom: 350px;
+	text-align: center;
+	font-weight:300px;
+	color: #282928;
+}
