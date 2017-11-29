@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+    margin: auto;
+    text-align: right;
+    padding: 1.8em;
+}
+
+header {
+	text-align: center;
+}
+
+body {
+	font-size: 16px; /*16px = 1em*/
+}
+
+h1 {
+	color: #E9849D;
+	font-size: 7.5em;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 300;
+	padding-top: 2em;
+	padding-bottom: .1em;
+}
+
+
+h2 {
+	color: #282928;
+	font-size: 3.7em;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 200;
+	line-height: 1.2;
+	padding: .4em 0;
+}
+
+aside {
+	
+}
+
+article {
+	
+}
+
+footer {
+	text-align: center;
+	line-height: 2em;
+	padding: 2em 0;
+	background-color: #282928;
+}
+
+section {
+	width: 100%;
+	height: auto;
+}
+
+p {
+	color: #404040;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+}
+
+ul {
+	color: #414241;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+	padding-left: 1.2em; 
+}
+
+a {
+	color: #E9849D;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+}
+
+footer a {
+	font-size: 1.2em;
+	padding-bottom: .2em;
+}
+
+footer a:hover {
+	border-bottom: .1em solid #E9849D;
+}
+
+footer h2 {
+	color: #E9849D;
+	font-size: 2.4em;
+}
+
+img {
+	width: 100%;
+}
+
+nav a {
+	font-family: 'Open Sans', sans-serif;
+	color: #E9849D;
+	text-transform: uppercase;
+	font-weight: 1000;
+	letter-spacing: .2em;
+	padding: .8em;
+    margin: 0 1.2em;
+    border: none;
+    background-color: none;
+}
+
+nav a:hover {
+	color: #282928;
+}
+
+figcaption {
+	text-align: center;
+	font-size: 0.8em;
+	font-weight: 800;
+}
+
+label {
+	font-family: 'Open Sans', sans-serif;
+	color: #E9849D;
+	text-transform: uppercase;
+	font-weight: 1000;
+	letter-spacing: .2em;
+	padding: 2em 1em;
+    margin: 0 1.2em;
+    border: none;
+    background-color: none;
+    display: none;
+}
+
+.about {
+    width: 100%;
+}
+
+.descriptionaboutme {
+    float: left;   
+   	width: 30%;
+   	text-align: left;
+   	padding: 10%;
+   	height: auto;
+}
+
+.imageofme {
+    float: right;
+    width: 50%;
+}
+
+.skills {
+	width: 100%;
+}
+
+.imageofwork {
+	float: left;
+    width: 50%;
+}
+
+.descriptionofskills {
+    float: right;   
+    width: 30%;
+    text-align: left;
+    padding: 10%;
+    height: auto;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.work h2 {
+	text-align: center;
+}
+
+.work {
+	width: 100%; 
+	background-color: #e6e6e6;
+	padding-bottom: 2%;
+}
+
+.casestudy {
+	/*background-color: orange;*/
+	float: left;
+	width: 29%;
+	padding: 2%;
+}
+
+
+#lander {
+	background-image: url("https://i.imgur.com/cHcBQvq.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 1.8em;
+	padding-bottom: 10em;
+	text-align: center;
+	font-weight:300px;
+	color: #282928;
+}
+
+#toggle {
+	display: none;
+}
+
+@media only screen and (max-width: 1360px) {
+	.descriptionaboutme { 
+    width: 36%;
+    padding: 7%;
+	}
+
+	.descriptionofskills { 
+    width: 36%;
+    padding: 7%;
+	}
+
+@media only screen and (max-width: 1129px) {
+	.descriptionaboutme { 
+    width: 40%;
+    padding: 5%;
+	}
+
+	.descriptionofskills { 
+    width: 40%;
+    padding: 5%;
+	}
+
+	h2 {
+		font-size: 2.7em;
+	}
+
+	nav {
+    text-align: center;
+	}
+
+	a {
+		font-weight: 1000;
+	}
+}
+
+@media only screen and (max-width: 1005px) {
+	.descriptionaboutme { 
+    width: 46%;
+    padding: 2%;
+	}
+
+	.descriptionofskills { 
+    width: 46%;
+    padding: 2%;
+	}
+
+	h1 {
+		padding-top: 1.5em;
+	}
+
+@media only screen and (max-width: 870px) {
+	.descriptionaboutme { 
+    width: auto;
+    padding: 8%;
+    float: none;
+	}
+
+	.imageofme {
+		float: none;
+		width: auto;
+		display: block;
+	}
+
+	.descriptionofskills { 
+    width: auto;
+    padding: 8% 25%;
+    float: none;
+	}
+
+	.imageofwork {
+		float: none;
+		width: auto;
+		display: block;
+	}
+
+	h1 {
+		font-size: 7em;
+	}
+
+	.casestudy {
+		float: none;
+		width: auto;
+	}
+
+	.munnsimage, .jobeximage, .eastendimage {
+		width: 80%;
+		padding: 0 10%;
+	}
+}
+
+@media only screen and (max-width: 715px) {
+	.descriptionofskills { 
+    width: auto;
+    padding: 8% 20%;
+    float: none;
+	}
+
+	.munnsimage, .jobeximage, .eastendimage {
+		width: 70%;
+		padding: 0 15%;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	h1 {
+		font-size: 5em;
+		padding-top: 2.5em;
+		}
+
+	#slogan {
+		font-size: 1.4em;
+		padding-bottom: 16em;
+		}
+}
+
+@media only screen and (max-width: 635px) {
+	nav {
+		display: none;
+		padding: .2em 1em;
+	}
+
+	nav a:link {
+		display: block;
+		padding: .5em;
+    	margin: .5em;
+	}
+	h1 {
+		padding-top: 2em;
+	}
+
+	label {
+		display: block;
+		text-align: center;
+		padding-top: 2em;
+		padding-bottom: 0;
+	}
+
+	#toggle:checked + nav {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 488px) {
+	h1 {
+		font-size: 4em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	.descriptionofskills { 
+    padding: 8% 10%;
+	}
+
+	#slogan {
+		font-size: 1.3em;
+	}
+}
